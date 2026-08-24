@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        /* :root{
+            --name: value; // example
+        } */
+
+        :root {
+            --color: blue;
+            --newcolor: red;
+            --oldcolor: rgb(105, 252, 85);
+            --evcolor: brown;
+        }
+
+        .a {
+            color: var(--color);
+            background-color: var(--oldcolor);
+        }
+
+        .b {
+            background-color: var(--newcolor);
+            color: var(--oldcolor);
+        }
+
+        .c {
+            background-color: var(--evcolor);
+        }
+        p{
+            background-color: var(--oldcolor);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- css variables yani bhut sare jagah phar ek jaisa color dena hotu iska use karte hai -->
+    <div class="a">one
+        <p>para .</p>
+    </div>
+    <div class="b">two</div>
+    <div class="c">three</div>
+</body>
+
+</html>
