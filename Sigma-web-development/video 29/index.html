@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex # 3 Un-solved</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(214, 214, 214);
+        }
+        .parent{
+            height: 550px;
+            width: 400px;
+            background-color: white;
+            border: 1px solid gray;
+            margin-top: 40px;
+            border-radius: 10px;
+        }
+        .img img{
+            height: 250px;
+            margin: 12px;
+            border-radius: 10px;
+        }
+        .btn{
+            position: relative;
+            top: 0px;
+            right: 100px;
+        }
+        .btn :first-child{
+            display: inline-block;
+            color: rgb(100, 99, 99);
+            padding: 7px;
+            border: 1px solid rgb(187, 187, 187);
+            border-radius: 50px;
+            width: 70px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .btn :nth-child(2){
+            display: inline-block;
+            color: rgb(100, 99, 99);
+            padding: 7px;
+            border: 1px solid rgb(187, 187, 187);
+            border-radius: 50px;
+            width: 50px;
+            height: 30px;
+        }
+        h2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              position: relative;
+            top: 0px;
+            right: 90px;
+            margin: 15px 0px 10px 0px;
+        }
+        p{
+            text-align: left;
+            color: gray;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative;
+            top: 5px;
+            left: -20px;
+            width: 300px;
+        }
+        .last-btn{
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border: none;
+            color: rgb(8, 4, 226);
+            background-color: rgb(152, 255, 255);
+            border-radius: 20px;
+            font-weight: 700;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            height: 40px;
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+
+        <div class="parent">
+            <div class="img"><img src="images.jpg" alt="images"></div>
+            <div class="btn">
+                <button>Nature</button>
+                <button>Lake</button>
+            </div>
+
+            <h2>Lago di Braies</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, veniam? Expedita maiores voluptate eaque, architecto numquam modi illo.</p>
+
+            <button class="last-btn">Read More</button>
+        </div>
+    </center>
+</body>
+</html>
