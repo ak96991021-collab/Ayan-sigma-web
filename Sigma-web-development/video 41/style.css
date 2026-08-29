@@ -1,0 +1,23 @@
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  header {
+      display: flex;
+      justify-content: center;
+  }
+
+  nav {
+      height: 70px;
+      width: 80vw;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .nav{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+  }

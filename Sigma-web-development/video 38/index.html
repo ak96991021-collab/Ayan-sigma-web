@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FlexBox</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .boxer {
+            border: 2px solid red;
+            height: 70vh;
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: center;
+            /* align-items: center; */
+            align-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+
+        }
+
+        .box {
+            background-color: lightsalmon;
+            height: 70px;
+            width: 70px;
+            border: 2px solid black;
+        }
+        
+        .ex{
+            order: -1;
+            flex-grow: 2;
+        }
+        .jpg{
+            /* align-self: flex-start; */
+            order: 1;
+            flex-shrink: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxer">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box ex" >5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box jpg" >10</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

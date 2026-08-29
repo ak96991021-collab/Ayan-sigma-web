@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            height: 60vh;
+            width: 80vw;
+            border: 2px solid red;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .box1:hover {
+            transform: translateX(50px);
+        }
+
+        .box2:hover {
+            transform: translateY(50px);
+        }
+
+        .box3:hover {
+            transform: translate(50px, 50px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box1">translate X</div>
+        <div class="box box2">translate Y</div>
+        <div class="box box3">translate </div>
+    </div>
+
+
+
+</body>
+
+</html>
